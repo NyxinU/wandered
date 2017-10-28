@@ -33,5 +33,6 @@
   "bugs": {
     "url": "https://github.com/NyxinU/wandered/issues"
   },
-  "homepage": "https://github.com/NyxinU/wandered#readme"
+  "homepage": "https://github.com/NyxinU/wandered#readme",
+  "devDependencies": {}
 }
