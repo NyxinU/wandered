@@ -19,11 +19,13 @@ Post.destroy_all
 
 posts = Post.create([
   {
-    title: "Japan",
-    description: "tokyo"
+    title: "TOKYO!",
+    description: "We loved it so much we had to come back."
   },
   {
-    title: "New York",
-    description: "city that never sleeps"
+    title: "Sakura Season",
+    description: "This year we went during Sakura Season, meaning it was prime time for cherry blossoms. While the trees and colours in Kyoto hade yet to reach full bloom, Tokyo was in its finest dress during our visit.
+
+So expect a lot of the white and cerise in this one."
   }
 ])
