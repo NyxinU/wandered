@@ -9,8 +9,15 @@ class PostIndex extends Component {
   }
 
   render() {
+    const { posts } = this.props;
     return (
-      <h1>post index</h1>
+      <ul>
+        {posts.map(post => 
+          <li>
+            {post.title}
+          </li>
+        )}
+      </ul>
     );
   }
 

@@ -1,5 +1,5 @@
 class Api::PostsController < ApplicationController
-  before_action :deny_access_if_not_logged_in
+  # before_action :deny_access_if_not_logged_in
 
   def index
     @posts = Post.all 
