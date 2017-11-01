@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PostIndexContainer from '../post/post_index_container';
 
 const sessionLinks = () => (
   <nav className="login-signup">
