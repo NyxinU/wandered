@@ -8,13 +8,13 @@ export const RECEIVE_POST_ERRORS = 'RECEIVE_POST_ERRORS';
 export const requestAllPosts = () => dispatch => (
   APIUtil.fetchPosts().then(posts => (
     dispatch(receivePosts(posts))
-  ),err => dispatch(receivePostErrors(err.responseJSON)))
+  ), err => dispatch(receivePostErrors(err.responseJSON)))
 );
 
-export const requestPosts = id => dispatch => (
+export const requestPost = id => dispatch => (
   APIUtil.fetchPost().then(post => (
     dispatch(receivePost(post))  
-  ),err => dispatch(receivePostErrors(err.responseJSON)))
+  ), err => dispatch(receivePostErrors(err.responseJSON)))
 );
 
 export const createPost = post => dispatch => (
