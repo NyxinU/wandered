@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import PicIndexContainer from "../pictures/picture_index_container";
+
 class PostIndexItem extends Component {
   constructor(props) {
     super(props);
@@ -13,6 +15,7 @@ class PostIndexItem extends Component {
       <div>
         <h2>{post.title}</h2>
         <p>{post.description}</p>
+        <PicIndexContainer />
       </div>
     );
   }

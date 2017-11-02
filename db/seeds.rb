@@ -8,6 +8,7 @@
 
 
 User.destroy_all
+
 user1 = User.create ({
   username: 'invisibleman',
   password: 'teddywinters',
@@ -17,15 +18,29 @@ user1 = User.create ({
 
 Post.destroy_all
 
-posts = Post.create([
+post1 = Post.create(
+  title: "TOKYO!",
+  description: "We loved it so much we had to come back."
+)
+
+post2 = Post.create(
+  title: "Sakura Season",
+  description: "This year we went during Sakura Season, meaning it was prime time for cherry blossoms. While the trees and colours in Kyoto hade yet to reach full bloom, Tokyo was in its finest dress during our visit.
+    So expect a lot of the white and cerise in this one."
+)
+
+Picture.destroy_all
+
+pictures = Picture.create([
   {
-    title: "TOKYO!",
-    description: "We loved it so much we had to come back."
+    url: 'https://jonasjacobsson.exposure.co/lost-in-translation/photos/4227546',
+    post_id: post1.id 
   },
   {
-    title: "Sakura Season",
-    description: "This year we went during Sakura Season, meaning it was prime time for cherry blossoms. While the trees and colours in Kyoto hade yet to reach full bloom, Tokyo was in its finest dress during our visit.
-
-So expect a lot of the white and cerise in this one."
-  }
+    url: 'https://jonasjacobsson.exposure.co/lost-in-translation/photos/4218949',
+    post_id: post2.id
+  },
 ])
+
+
+
