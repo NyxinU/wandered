@@ -33,11 +33,19 @@ Picture.destroy_all
 
 pictures = Picture.create([
   {
-    url: 'https://jonasjacobsson.exposure.co/lost-in-translation/photos/4227546',
+    url: 'https://exposure.imgix.net/production/photos/umb6h26310lxz96s1u714mxd6mwccxgfwcdf/original.jpg?fm=pjpg&auto=format&fm=jpg&w=1500',
     post_id: post1.id 
   },
   {
-    url: 'https://jonasjacobsson.exposure.co/lost-in-translation/photos/4218949',
+    url: 'https://exposure.imgix.net/production/photos/05qw42z2wlzb9jlp8o8vin561x0xyw6lpw2p/original.jpg?fm=pjpg&auto=format&fm=jpg&w=1200',
+    post_id: post2.id
+  },
+  {
+    url: 'https://exposure.imgix.net/production/photos/8pwpe5wzjz3rexj55y5qi6aq0fcyxdnw36oi/original.jpg?fm=pjpg&auto=format&fm=jpg&w=400',
+    post_id: post2.id
+  },
+  {
+    url: 'https://exposure.imgix.net/production/photos/s3rc636mnxmn231cx8sr1jyfw1l4hqndahr5/original.jpg?fm=pjpg&auto=format&fm=jpg&w=600',
     post_id: post2.id
   },
 ])

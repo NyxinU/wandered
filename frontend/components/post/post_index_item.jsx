@@ -15,7 +15,7 @@ class PostIndexItem extends Component {
       <div>
         <h2>{post.title}</h2>
         <p>{post.description}</p>
-        <PicIndexContainer />
+        <PicIndexContainer postId={post.id} />
       </div>
     );
   }

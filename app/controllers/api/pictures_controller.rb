@@ -10,7 +10,7 @@ class Api::PicturesController < ApplicationController
   end
 
   def index
-    @pictures = Picture.all 
+    @pictures = Picture.where(post_id: params[:postId])
     render :index 
   end
 

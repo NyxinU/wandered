@@ -5,8 +5,8 @@ export const RECEIVE_PIC = 'RECEIVE_PIC';
 export const REMOVE_PIC = 'REMOVE_PICS';
 export const RECEIVE_PIC_ERRORS = 'RECEIVE_PIC_ERRORS';
 
-export const requestAllPics = () => dispatch => (
-  APIUtil.fetchAllPictures().then(pics => (
+export const requestAllPics = (postId) => dispatch => (
+  APIUtil.fetchAllPictures(postId).then(pics => (
     dispatch(receivePics(pics))
   ),err => dispatch(receivePicErrors(err.responseJSON)))
 );

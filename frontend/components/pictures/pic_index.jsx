@@ -4,7 +4,7 @@ import PicIndexItem from './pic_index_item'
 
 class PicIndex extends Component {
   componentWillMount() {
-    this.props.requestAllPics();
+    this.props.requestAllPics(this.props.postId);
   }
 
   render() {
@@ -13,7 +13,7 @@ class PicIndex extends Component {
       <ul>
         {pics.map(pic => <PicIndexItem
             key={pic.id}
-            url={pic.url}          
+            url={pic.url}      
           />)}
       </ul>
     )

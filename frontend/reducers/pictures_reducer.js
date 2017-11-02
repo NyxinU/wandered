@@ -8,15 +8,15 @@ import merge from 'lodash/merge';
 
 const PicsReducer = (state = {}, action) => {
   Object.freeze(state);
+  const newState = merge({}, state)
 
   switch (action.type) {
     case RECEIVE_PICS:
-      return action.pics;
-    case RECEIVE_PIC:
-      newPic = { [action.pic.id]: action.pic};
-      return merge({}, state, newPost);
+      action.pics.forEach( function(pic) {
+        newState[pic.id] = pic;
+      });
+      return newState
     case REMOVE_PIC:
-      const newState = merge({}, state);
       delete newState[action.pic.id];
       return newState;
     default: 
