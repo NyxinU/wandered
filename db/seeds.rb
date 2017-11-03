@@ -40,55 +40,55 @@ Picture.destroy_all
 
 pictures = Picture.create([
   {
-    url: 'https://exposure.imgix.net/production/photos/umb6h26310lxz96s1u714mxd6mwccxgfwcdf/original.jpg?fm=pjpg&auto=format&fm=jpg&w=1500',
+    url: 'https://exposure.imgix.net/production/photos/umb6h26310lxz96s1u714mxd6mwccxgfwcdf/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post1.id 
   },
   {
-    url: 'https://exposure.imgix.net/production/photos/05qw42z2wlzb9jlp8o8vin561x0xyw6lpw2p/original.jpg?fm=pjpg&auto=format&fm=jpg&w=1200',
+    url: 'https://exposure.imgix.net/production/photos/05qw42z2wlzb9jlp8o8vin561x0xyw6lpw2p/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post2.id
   },
   {
-    url: 'https://exposure.imgix.net/production/photos/8pwpe5wzjz3rexj55y5qi6aq0fcyxdnw36oi/original.jpg?fm=pjpg&auto=format&fm=jpg&w=400',
+    url: 'https://exposure.imgix.net/production/photos/8pwpe5wzjz3rexj55y5qi6aq0fcyxdnw36oi/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post2.id
   },
   {
-    url: 'https://exposure.imgix.net/production/photos/s3rc636mnxmn231cx8sr1jyfw1l4hqndahr5/original.jpg?fm=pjpg&auto=format&fm=jpg&w=600',
+    url: 'https://exposure.imgix.net/production/photos/s3rc636mnxmn231cx8sr1jyfw1l4hqndahr5/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post2.id
   },
   {
-    url: 'https://exposure.imgix.net/production/photos/djod55adn8ufziow67y19guo29p8vfxn5rw0/original.jpg?fm=pjpg&auto=format&fm=jpg&w=1200',
+    url: 'https://exposure.imgix.net/production/photos/djod55adn8ufziow67y19guo29p8vfxn5rw0/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post2.id
   },
   {
-    url: 'https://exposure.imgix.net/production/photos/5syw9jr5cfska9fsugamtotncvl7jhlunj11/original.jpg?fm=pjpg&auto=format&fm=jpg&w=1500',
+    url: 'https://exposure.imgix.net/production/photos/5syw9jr5cfska9fsugamtotncvl7jhlunj11/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post3.id
   },
   {
-    url: 'https://exposure.imgix.net/production/photos/a3ntt0sk0ddfn11r75thj8wsjvtnbt0mdahh/original.jpg?fm=pjpg&auto=format&fm=jpg&w=1200',
+    url: 'https://exposure.imgix.net/production/photos/a3ntt0sk0ddfn11r75thj8wsjvtnbt0mdahh/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post3.id
   },
   {
-    url: 'https://exposure.imgix.net/production/photos/vnvxlhos6g1iinbfx6eku14egakxs1tsxodg/original.jpg?fm=pjpg&auto=format&fm=jpg&w=400',
+    url: 'https://exposure.imgix.net/production/photos/vnvxlhos6g1iinbfx6eku14egakxs1tsxodg/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post3.id
   },
   {
-    url: 'https://exposure.imgix.net/production/photos/3a5tmsbt4ms4lxzg76fecllbbz1b3q2n5csj/original.jpg?fm=pjpg&auto=format&fm=jpg&w=600',
+    url: 'https://exposure.imgix.net/production/photos/3a5tmsbt4ms4lxzg76fecllbbz1b3q2n5csj/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post3.id
   },
   {
-    url: 'https://exposure.imgix.net/production/photos/arpw4z38u77554vpfr00im0ariqibcirr44p/original.jpg?fm=pjpg&auto=format&fm=jpg&w=1200',
+    url: 'https://exposure.imgix.net/production/photos/arpw4z38u77554vpfr00im0ariqibcirr44p/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post3.id
   },
   {
-    url: 'https://exposure.imgix.net/production/photos/q5xn0yndk9st49petd5fejlavjw42wmywx1i/original.jpg?fm=pjpg&auto=format&fm=jpg&w=600',
+    url: 'https://exposure.imgix.net/production/photos/q5xn0yndk9st49petd5fejlavjw42wmywx1i/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post3.id
   },
   {
-    url: 'https://exposure.imgix.net/production/photos/a2hjw2m92vp68x4h0aphmioad0kkax6ygqs5/original.jpg?fm=pjpg&auto=format&fm=jpg&w=600',
+    url: 'https://exposure.imgix.net/production/photos/a2hjw2m92vp68x4h0aphmioad0kkax6ygqs5/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post3.id
   },
   {
-    url: 'https://exposure.imgix.net/production/photos/izj861wlrwosslwthhg8mf768ty26lh7sg0s/original.jpg?fm=pjpg&auto=format&fm=jpg&w=1500',
+    url: 'https://exposure.imgix.net/production/photos/izj861wlrwosslwthhg8mf768ty26lh7sg0s/original.jpg?fm=pjpg&auto=format&fm=jpg',
     post_id: post3.id
   },
 
